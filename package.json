@@ -1,0 +1,8 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Janlaywss/monorepo-demo.git",
+  "author": "janlay <janlaywss@gmail.com>",
+  "license": "MIT"
+}
