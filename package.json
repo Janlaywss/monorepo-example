@@ -1,8 +1,12 @@
 {
   "name": "monorepo-demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "repository": "https://github.com/Janlaywss/monorepo-demo.git",
   "author": "janlay <janlaywss@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lage": "^0.41.0",
+    "lerna": "^4.0.0"
+  }
 }

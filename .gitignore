@@ -1,0 +1,18 @@
+node_modules
+dist
+temp
+
+# Visual Studio Temp Project
+.vs/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.idea
+/.settings/
+
+# NPM Install Temp
+__temp/
+
+*.tar.gz
+
+.cache
