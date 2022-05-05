@@ -89,6 +89,11 @@ module.exports = (cliEnv = {}, argv) => {
         callback();
       },
     ],
+    devServer: {
+      devMiddleware: {
+        writeToDisk: true
+      }
+    },
     externalsType: 'commonjs2',
     resolve: {
       extensions: ['.js', '.css', '.jsx', '.tsx', '.ts'],

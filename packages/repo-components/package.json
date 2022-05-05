@@ -6,7 +6,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build-dev": "webpack --mode=development",
+    "dev": "webpack --mode=development -w",
     "build": "webpack --mode=production"
   },
   "keywords": [],
@@ -17,8 +17,6 @@
     "@babel/preset-react": "^7.16.7",
     "@ecomfe/class-names-loader": "^2.0.0",
     "@svgr/webpack": "^5.5.0",
-    "@typescript-eslint/eslint-plugin": "^4.32.0",
-    "@typescript-eslint/parser": "^4.32.0",
     "antd-dayjs-webpack-plugin": "^1.0.6",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
