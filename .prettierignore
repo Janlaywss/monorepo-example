@@ -1,0 +1,15 @@
+node_modules
+.next
+.github
+.vscode
+.eslintrc.js
+.babelrc
+.prettierrc.js
+tsconfig.json
+yarn.lock
+package.json
+package-lock.json
+public
+README.md
+test
+dist

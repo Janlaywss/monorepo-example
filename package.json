@@ -5,8 +5,22 @@
   "repository": "https://github.com/Janlaywss/monorepo-demo.git",
   "author": "janlay <janlaywss@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lage": "^0.41.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "typescript": "^4.4.4",
+    "typescript-plugin-css-modules": "^3.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
