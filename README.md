@@ -8,9 +8,9 @@ monorepo 示例项目
 
 ## 目标
 
--[x] 自动梳理依赖关系
--[x] 自动changelog
--[x] changeset自动更新包版本
+- [x] 自动梳理依赖关系
+- [x] 自动changelog
+- [x] changeset自动更新包版本
 
 ## 还未实现
 
