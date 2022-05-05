@@ -16,3 +16,5 @@ __temp/
 *.tar.gz
 
 .cache
+
+.turbo

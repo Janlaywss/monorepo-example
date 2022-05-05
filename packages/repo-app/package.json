@@ -1,6 +1,7 @@
 {
-  "name": "repo-app",
-  "version": "1.0.0",
+  "name": "@janlay/app",
+  "version": "1.0.2",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,6 +17,6 @@
     "next": "12.1.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "repo-components": "1.0.0"
+    "@janlay/components": "3.0.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-demo",
+  "name": "@janlay/monorepo",
   "version": "1.0.0",
   "private": true,
   "repository": "https://github.com/Janlaywss/monorepo-demo.git",
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "bootstrap": "yarn",
-    "dev": "turbo run dev --parallel"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
