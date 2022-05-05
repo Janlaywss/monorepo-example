@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
+import { ComponentA } from 'repo-components';
 
 import styles from '../styles/Home.module.css';
 
@@ -14,10 +14,7 @@ const Index: React.FC<any> = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
+        <ComponentA />
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.js</code>
         </p>
@@ -55,9 +52,6 @@ const Index: React.FC<any> = () => {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
         </a>
       </footer>
     </div>
