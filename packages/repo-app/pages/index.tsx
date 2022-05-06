@@ -1,6 +1,6 @@
 import React from 'react';
+import { ComponentA } from '@janlay/components';
 import Head from 'next/head';
-import { ComponentA } from 'repo-components';
 
 import styles from '../styles/Home.module.css';
 
