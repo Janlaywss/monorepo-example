@@ -10,6 +10,12 @@
     "build": "webpack --mode=production"
   },
   "keywords": [],
+  "files": [
+    "./dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
