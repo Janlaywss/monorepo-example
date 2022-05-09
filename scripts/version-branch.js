@@ -21,6 +21,7 @@ const git = simpleGit()
  * **/
 
 const publishPackages = ['@janlay/components'];
+
 const makeHash = () => sha('sha256')
     .update(performance.now().toString())
     .digest('hex');
@@ -58,7 +59,7 @@ const run = async () => {
           const localVersion = currentBranch === 'master' ? json.version : '1.0.0';
           const {versions} = await getPackageRemoteInfo(pkgName);
           if (versions[localVersion]) {
-            set(json, 'version', localVersion + '-' + makeHash().slice(0, 6))
+            set(json, 'version', localVersion.replace(/-\w{6}/, '') + '-' + makeHash().slice(0, 6))
           }
           fs.writeFileSync(packageJSONLocation, JSON.stringify(json, null, 2));
         } catch (e) {

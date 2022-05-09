@@ -1,6 +1,6 @@
 {
   "name": "@janlay/components",
-  "version": "1.0.0",
+  "version": "1.0.0-8b6c62",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
